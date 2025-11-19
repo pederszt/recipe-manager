@@ -1,0 +1,18 @@
+package org.gnorlsoft.recipemanager.entities;
+
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import lombok.Data;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+@Data
+public class Recipe {
+
+    private Integer id;
+    private String name;
+    private String category;
+    private Integer numberOfMeals;
+    private List<Ingredient> ingredients;
+}
