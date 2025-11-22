@@ -2,238 +2,289 @@
     {
         "id": 1,
         "name": "Ground Beef",
-        "quantity": "1 lb"
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 2,
         "name": "Pork Chops",
-        "quantity": "5 pieces"
+        "quantity": 5.0,
+        "unit": "pieces"
     },
     {
         "id": 3,
         "name": "Chickpeas",
-        "quantity": "1 can"
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 4,
         "name": "Black Beans",
-        "quantity": "1 can"
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 5,
         "name": "Tomato Sauce",
-        "quantity": "2 cups"
+        "quantity": 2.0,
+        "unit": "cups"
     },
     {
         "id": 6,
         "name": "Cheddar Cheese",
-        "quantity": "2 cups shredded"
+        "quantity": 2.0,
+        "unit": "cups shredded"
     },
     {
         "id": 7,
         "name": "Mozzarella Cheese",
-        "quantity": "2 cups shredded"
+        "quantity": 2.0,
+        "unit": "cups shredded"
     },
     {
         "id": 8,
         "name": "Pineapple Chunks",
-        "quantity": "1 can"
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 9,
         "name": "Bread Slices",
-        "quantity": "10 slices"
+        "quantity": 10.0,
+        "unit": "slices"
     },
     {
         "id": 10,
         "name": "Spaghetti Noodles",
-        "quantity": "1 lb"
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 11,
         "name": "Meatballs",
-        "quantity": "1 lb"
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 12,
         "name": "Ground Pork",
-        "quantity": "1 lb"
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 13,
         "name": "Breakfast Sausage",
-        "quantity": "1 tube"
+        "quantity": 1.0,
+        "unit": "tube"
     },
     {
         "id": 14,
         "name": "Tortilla Chips",
-        "quantity": "1 bag"
+        "quantity": 1.0,
+        "unit": "bag"
     },
     {
         "id": 15,
         "name": "Flour Tortillas",
-        "quantity": "10 pieces"
+        "quantity": 10.0,
+        "unit": "pieces"
     },
     {
         "id": 16,
         "name": "Lettuce",
-        "quantity": "1 head"
+        "quantity": 1.0,
+        "unit": "head"
     },
     {
         "id": 17,
         "name": "Tomatoes",
-        "quantity": "4 medium"
+        "quantity": 4.0,
+        "unit": "medium"
     },
     {
         "id": 18,
         "name": "Cucumber",
-        "quantity": "1 large"
+        "quantity": 1.0,
+        "unit": "large"
     },
     {
         "id": 19,
         "name": "Eggs",
-        "quantity": "6 large"
+        "quantity": 6.0,
+        "unit": "large"
     },
     {
         "id": 20,
         "name": "Rice",
-        "quantity": "2.5 cups"
+        "quantity": 2.5,
+        "unit": "cups"
     },
     {
         "id": 21,
         "name": "Carrots",
-        "quantity": "4 medium"
+        "quantity": 4.0,
+        "unit": "medium"
+    },
+    {
+        "id": 22,
+        "name": "Potatoes",
+        "quantity": 4.0,
+        "unit": "medium"
     },
     {
         "id": 23,
-        "name": "Potatoes",
-        "quantity": "4 medium"
+        "name": "Onions",
+        "quantity": 1.0,
+        "unit": "large"
     },
     {
         "id": 24,
-        "name": "Onions",
-        "quantity": "1 large"
+        "name": "Crushed Tomatoes",
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 25,
-        "name": "Crushed Tomatoes",
-        "quantity": "1 can"
+        "name": "Diced Tomatoes",
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 26,
-        "name": "Diced Tomatoes",
-        "quantity": "1 can"
+        "name": "Kidney Beans",
+        "quantity": 1.0,
+        "unit": "can"
     },
     {
         "id": 27,
-        "name": "Kidney Beans",
-        "quantity": "1 can"
+        "name": "Corn",
+        "quantity": 1.0,
+        "unit": "cup"
     },
     {
         "id": 28,
-        "name": "Corn",
-        "quantity": "1 cup"
+        "name": "Shredded Cheddar Cheese",
+        "quantity": 2.0,
+        "unit": "cups"
     },
     {
         "id": 29,
-        "name": "Shredded Cheddar Cheese",
-        "quantity": "2 cups"
+        "name": "Sour Cream",
+        "quantity": 1.0,
+        "unit": "cup"
     },
     {
         "id": 30,
-        "name": "Sour Cream",
-        "quantity": "1 cup"
+        "name": "Frozen Broccoli",
+        "quantity": 1.0,
+        "unit": "bag"
     },
     {
         "id": 31,
-        "name": "Frozen Broccoli",
-        "quantity": "1 bag"
+        "name": "Soy Sauce",
+        "quantity": 0.5,
+        "unit": "cup"
     },
     {
         "id": 32,
-        "name": "Soy Sauce",
-        "quantity": "1/2 cup"
+        "name": "Feta Cheese",
+        "quantity": 1.0,
+        "unit": "inch piece"
     },
     {
         "id": 33,
-        "name": "Feta Cheese",
-        "quantity": "1 inch piece"
+        "name": "Cream Cheese",
+        "quantity": 8.0,
+        "unit": "oz"
     },
     {
         "id": 34,
-        "name": "Cream Cheese",
-        "quantity": "8 oz"
+        "name": "Carnitas Pork Roast",
+        "quantity": 2.0,
+        "unit": "lb"
     },
     {
         "id": 35,
-        "name": "Carnitas Pork Roast",
-        "quantity": "2 lbs"
+        "name": "Pork Roast",
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 36,
-        "name": "Pork Roast",
-        "quantity": "1 lb"
+        "name": "Salmon Fillets",
+        "quantity": 3.0,
+        "unit": "pieces"
     },
     {
         "id": 37,
-        "name": "Salmon Fillets",
-        "quantity": "3 Pieces"
+        "name": "Breaded Fish",
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 38,
-        "name": "Breaded Fish",
-        "quantity": "1 lb"
+        "name": "Perogies",
+        "quantity": 0.5,
+        "unit": "bag"
     },
     {
         "id": 39,
-        "name": "Perogies",
-        "quantity": "1/2 bag"
+        "name": "Ravioli",
+        "quantity": 1.0,
+        "unit": "package"
     },
     {
         "id": 40,
-        "name": "Ravioli",
-        "quantity": "1 package"
+        "name": "Salmon Burger",
+        "quantity": 5.0,
+        "unit": "pieces"
     },
     {
         "id": 41,
-        "name": "Salmon Burger",
-        "quantity": "5 pieces"
+        "name": "Bacon",
+        "quantity": 0.5,
+        "unit": "package"
     },
     {
         "id": 42,
-        "name": "Bacon",
-        "quantity": "1/2 package"
+        "name": "Canned Tuna",
+        "quantity": 2.0,
+        "unit": "lb"
     },
     {
         "id": 43,
-        "name": "Canned Tuna",
-        "quantity": "2 lbs"
+        "name": "Avocados",
+        "quantity": 2.0,
+        "unit": "pieces"
     },
     {
         "id": 44,
-        "name": "Avocados",
-        "quantity": "2 pieces"
+        "name": "Cherry Tomatoes",
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
         "id": 45,
-        "name": "Cherry Tomatoes",
-        "quantity": "1 lbs"
+        "name": "Bell Peppers",
+        "quantity": 1.0,
+        "unit": "piece"
     },
     {
         "id": 46,
-        "name": "Bell Peppers",
-        "quantity": "1 piece"
-    },
-    {
         "name": "Jalapenos",
-        "quantity": "3 pieces"
+        "quantity": 3.0,
+        "unit": "pieces"
     },
     {
+        "id": 47,
         "name": "Green Beans",
-        "quantity": "1 lb"
+        "quantity": 1.0,
+        "unit": "lb"
     },
     {
+        "id": 48,
         "name": "Parmesan Cheese",
-        "quantity": "1/2 lb"
+        "quantity": 0.5,
+        "unit": "lb"
     }
 ]

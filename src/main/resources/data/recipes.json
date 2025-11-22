@@ -273,7 +273,21 @@
         "id": 46,
         "name": "Bean and Rice Burritos",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": [
+            {
+                "ingredientId": 12,
+                "count": 1
+            },
+            {
+                "ingredientId": 15,
+                "count": 1
+            },
+            {
+                "ingredientId": 20,
+                "count": 4
+            }
+        ]
     },
     {
         "id": 47,

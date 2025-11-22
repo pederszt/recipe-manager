@@ -6,9 +6,8 @@ import lombok.Data;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
-public class Ingredient {
-    private Integer id;
-    private String name;
-    private Double quantity;
-    private String unit;
+public class RecipeIngredient {
+
+    private Integer ingredientId;
+    private Integer count;
 }

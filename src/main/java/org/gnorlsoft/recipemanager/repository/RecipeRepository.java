@@ -2,10 +2,10 @@ package org.gnorlsoft.recipemanager.repository;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import org.gnorlsoft.recipemanager.entities.Ingredient;
 import org.gnorlsoft.recipemanager.entities.Recipe;
@@ -46,8 +46,38 @@ public class RecipeRepository {
             ingredients.addAll(Arrays.asList(
                     loadFromFile("ingredients.json", Ingredient[].class))
             );
+
+            AtomicInteger counter = new AtomicInteger(0);
+            ingredients.forEach(ing -> {
+                log.info("Loaded ingredient: " + ing.getName());
+                ing.setId(counter.incrementAndGet());
+            });
+
+            try {
+                System.out.println(objectMapper.writeValueAsString(ingredients));
+            } catch (JsonProcessingException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
         return ingredients;
+    }
+
+    public List<Ingredient> findIngredientsByName(String name) {
+        List<Ingredient> result = new ArrayList<>();
+        for (Ingredient ingredient : getIngredients()) {
+            if (ingredient.getName().toLowerCase().contains(name.toLowerCase())) {
+                result.add(ingredient);
+            }
+        }
+        return result;
+    }
+
+    public Ingredient findIngredientById(int id) {
+        return getIngredients().stream()
+                .filter(ingredient -> ingredient.getId() == id)
+                .findFirst()
+                .orElseThrow(() -> new NotFoundException("Ingredient not found with id: " + id));
     }
 
     private <T> T loadFromFile(String filename, Class<T> clazz) {

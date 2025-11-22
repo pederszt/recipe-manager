@@ -14,5 +14,5 @@ public class Recipe {
     private String name;
     private String category;
     private Integer numberOfMeals;
-    private List<Ingredient> ingredients;
+    private List<RecipeIngredient> ingredients;
 }
