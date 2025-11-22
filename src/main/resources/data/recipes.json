@@ -3,271 +3,344 @@
         "id": 1,
         "name": "Hamburgers",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 2,
         "name": "Spaghetti with Meatballs",
         "category": "Pasta",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": [
+            {
+                "ingredientId": 11,
+                "count": 1
+            },
+            {
+                "ingredientId": 10,
+                "count": 1
+            },
+            {
+                "ingredientId": 5,
+                "count": 1
+            }
+        ]
     },
     {
         "id": 3,
         "name": "Beef Chili",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 4,
         "name": "Pizza",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 5,
         "name": "Pork and Pineapple Bowls",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": [
+            {
+                "ingredientId": 12,
+                "count": 2
+            }
+        ]
     },
     {
         "id": 6,
         "name": "Lasagna",
         "category": "Pasta",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 7,
         "name": "Spaghetti Bolognese",
         "category": "Pasta",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 8,
         "name": "Grilled Cheese Sandwich",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 9,
         "name": "Biscuits and Gravy",
         "category": "Beef and Pork",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 10,
         "name": "Nachos",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 11,
         "name": "Bean Fajitas",
         "category": "Vegetarian",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 12,
         "name": "Butter Chick peas",
         "category": "Vegetarian",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": [
+            {
+                "ingredientId": 23,
+                "count": 2
+            }
+        ]
     },
     {
         "id": 13,
         "name": "Bean Enchiladas",
         "category": "Vegetarian",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": [
+            {
+                "ingredientId": 45,
+                "count": 2
+            }
+        ]
     },
     {
         "id": 14,
         "name": "Veggie Stir-Fry",
         "category": "Vegetarian",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 15,
         "name": "Bean Chili",
         "category": "Vegetarian",
-        "numberOfMeals": 3
+        "numberOfMeals": 3,
+        "ingredients": null
     },
     {
         "id": 16,
         "name": "Bean Tacos",
         "category": "Vegetarian",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 17,
         "name": "Bean Burritos",
         "category": "Vegetarian",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 18,
         "name": "Sloppy Joes",
         "category": "Beef and Pork",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 19,
         "name": "Beef and Broccoli",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 20,
         "name": "Swedish Meatballs",
         "category": "Beef and Pork",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 21,
         "name": "Taco Tot Hotdish",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 22,
         "name": "Fragrant Beef",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 23,
         "name": "Beef Stew",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 24,
         "name": "Feta Dill Pork chops",
         "category": "Beef and Pork",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 25,
         "name": "Pepper smothered pork chops",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 26,
         "name": "Carnitas",
         "category": "Beef and Pork",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 27,
         "name": "Pork Roast",
         "category": "Beef and Pork",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 28,
         "name": "Ravioli",
         "category": "Pasta",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 29,
         "name": "Pasta bake",
         "category": "Pasta",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 30,
         "name": "Gnocchi",
         "category": "Pasta",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 31,
         "name": "Perogies",
         "category": "Pasta",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 32,
         "name": "Fish and Chips",
         "category": "Fish and Seafood",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 33,
         "name": "Fish Tacos",
         "category": "Fish and Seafood",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 34,
         "name": "Salmon Burger",
         "category": "Fish and Seafood",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 34,
         "name": "Lemon Garlic Salmon",
         "category": "Fish and Seafood",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 35,
         "name": "Hand Pies",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 36,
         "name": "BLT Sandwich",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 38,
         "name": "Sandwiches",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 39,
         "name": "Tortilla Wraps",
         "category": "Quick & Easy",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 40,
         "name": "Egg-Fried Rice",
         "category": "Budget",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 41,
         "name": "Baked Potato",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 42,
         "name": "Black Bean Quesadillas",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 43,
         "name": "Dumplings",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 44,
         "name": "Fried Rice",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 45,
         "name": "Tuna Melt",
         "category": "Budget",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 46,
@@ -293,54 +366,68 @@
         "id": 47,
         "name": "Cobb Salad",
         "category": "Salad",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 48,
         "name": "Grilled Salad",
         "category": "Salad",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 49,
         "name": "Taco Salad",
         "category": "Salad",
-        "numberOfMeals": 1
+        "numberOfMeals": 1,
+        "ingredients": null
     },
     {
         "id": 50,
         "name": "Corn Chowder",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 51,
         "name": "Tomato Soup",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 52,
         "name": "Potato Soup",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": [
+            {
+                "ingredientId": 22,
+                "count": 2
+            }
+        ]
     },
     {
         "id": 53,
         "name": "Enchilada Soup",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 54,
         "name": "Minestrone Soup",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     },
     {
         "id": 55,
         "name": "Wedding Soup",
         "category": "Soup",
-        "numberOfMeals": 2
+        "numberOfMeals": 2,
+        "ingredients": null
     }
 ]

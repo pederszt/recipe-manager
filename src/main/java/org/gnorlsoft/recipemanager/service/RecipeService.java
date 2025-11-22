@@ -2,7 +2,6 @@ package org.gnorlsoft.recipemanager.service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 import org.gnorlsoft.recipemanager.dto.RecipeDto;
 import org.gnorlsoft.recipemanager.dto.RecipeIngredientDto;
@@ -46,6 +45,12 @@ public class RecipeService {
         recipeRepository.saveRecipe(recipe);
     }
 
+    public void saveIngredient(Ingredient ingredient) {
+        // Implementation to save an ingredient
+        log.info("Saving ingredient: " + ingredient.getName());
+        recipeRepository.saveIngredient(ingredient);
+    }
+
     public RecipeDto map(Recipe recipe) {
         RecipeDto dto = new RecipeDto();
         dto.setId(recipe.getId());
@@ -58,6 +63,7 @@ public class RecipeService {
 
             var ri = new RecipeIngredientDto();
             Ingredient ingr = recipeRepository.findIngredientById(recipeIngredient.getIngredientId());
+            ri.setId(ingr.getId());
             ri.setName(ingr.getName());
             ri.setQuantity(ingr.getQuantity());
             ri.setUnit(ingr.getUnit());

@@ -49,4 +49,8 @@ public class RecipeController {
         return recipeService.findIngredientsByName(q);
     }
 
+     @PostMapping("/ingredients")
+    public void saveIngredient(@RequestBody Ingredient entity) {
+        recipeService.saveIngredient(entity);
+    }
 }

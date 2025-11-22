@@ -99,6 +99,29 @@ public class RecipeRepository {
                 .orElseThrow(() -> new NotFoundException("Recipe not found with id: " + id));
     }
 
+    public void saveIngredient(Ingredient ingredient) {
+        // Implementation to save an ingredient
+        // This is a placeholder; actual implementation would involve saving to a database or file
+        if (ingredient.getId() == null) {
+            int newId = getIngredients().stream()
+                    .mapToInt(Ingredient::getId)
+                    .max()
+                    .orElse(0) + 1;
+            ingredient.setId(newId);
+            getIngredients().add(ingredient);
+        } else {
+            Ingredient existingIngredient = findIngredientById(ingredient.getId());
+
+            if (existingIngredient == null) {
+                throw new NotFoundException("Ingredient not found with id: " + ingredient.getId());
+            }
+
+            BeanUtils.copyProperties(ingredient, existingIngredient);
+        }
+
+        log.info("Saved ingredient: " + ingredient.getName());
+    }
+
     public void saveRecipe(Recipe recipe) {
         // Implementation to save a recipe
         // This is a placeholder; actual implementation would involve saving to a database or file
