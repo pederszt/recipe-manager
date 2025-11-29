@@ -140,13 +140,6 @@
         "ingredients": null
     },
     {
-        "id": 17,
-        "name": "Bean Burritos",
-        "category": "Vegetarian",
-        "numberOfMeals": 1,
-        "ingredients": null
-    },
-    {
         "id": 18,
         "name": "Sloppy Joes",
         "category": "Beef and Pork",
@@ -346,7 +339,7 @@
         "id": 46,
         "name": "Bean and Rice Burritos",
         "category": "Budget",
-        "numberOfMeals": 1,
+        "numberOfMeals": 2,
         "ingredients": [
             {
                 "ingredientId": 12,

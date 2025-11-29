@@ -26,7 +26,7 @@ public class RecipeController {
     private final RecipeService recipeService;
 
     @GetMapping("manage-recipes")
-    public ModelAndView getMethodName() {
+    public ModelAndView manageRecipes() {
 
         Map<String, Object> model = new HashMap<>();
         model.put("recipes", recipeService.getAllRecipes());
@@ -34,9 +34,22 @@ public class RecipeController {
         return new ModelAndView("manage-recipes", model);
     }
 
+    @GetMapping("generate-menu")
+    public ModelAndView generateMenu() {
+        Map<String, Object> model = new HashMap<>();
+
+        return new ModelAndView("generate-menu", model);
+    }
+
     @GetMapping("/recipes/{id}")
     public RecipeDto getRecipe(@PathVariable("id") Integer id) {
         return recipeService.getRecipeById(id);
+    }
+
+    
+    @GetMapping("/recipes")
+    public List<RecipeDto> getAllRecipes() {
+        return recipeService.getAllRecipes();
     }
 
     @PostMapping("/recipes")
@@ -49,7 +62,7 @@ public class RecipeController {
         return recipeService.findIngredientsByName(q);
     }
 
-     @PostMapping("/ingredients")
+    @PostMapping("/ingredients")
     public void saveIngredient(@RequestBody Ingredient entity) {
         recipeService.saveIngredient(entity);
     }

@@ -21,8 +21,8 @@ public class RecipeService {
 
     private final RecipeRepository recipeRepository;
 
-    public List<Recipe> getAllRecipes() {
-        return recipeRepository.getRecipes();
+    public List<RecipeDto> getAllRecipes() {
+        return recipeRepository.getRecipes().stream().map(this::map).toList();
     }
 
     public RecipeDto getRecipeById(int id) {
